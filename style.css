@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  width: 400px;
+  margin-top: -10%;
+  margin-left: -15%;
+}
+
+.main-nav li{
+display: inline-block;
+
+}
+
+.main-nav2 li{
+display: inline-block;
+
+}
+
+.main-nav2 li a{
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.main-nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.social li:hover {
+  color: #292929;
+  border: 1px solid #292929;
+  transition: .5s;
+}
+
+.social li{
+  list-style:none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.home {
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Simpson.png);
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  }
+
+.raff {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/rafticks.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    }
+
+.sneak {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Blue_Moon.jpeg);
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    }
+
+.about {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/SBbox.jpeg);
+        height: 100vh;
+        background-size: contain;
+        background-position: center;
+        }
+
+.tacts {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/dunkHigh.png);
+        height: 100vh;
+        background-size: contain;
+        background-position: center;
+        }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper h1{
+  text-align: center;
+  padding: .8em 1.2em;
+  margin-top: 10%;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 300%;
+  margin-right: -3%;
+
+}
+
+.media{
+  text-align: center;
+}
+
+
+
+.description h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 500%;
+  margin-top: -25px;
+}
+
+.description p{
+  text-align: center;
+  color: #fff;
+  font-size: 150%;
+padding-left: 250px;
+  width: 1000px;
+}
+
+.info h1{
+  color: #fff;
+    padding-left: 130px;
+}
+
+.con li{
+  color: #fff;
+  padding-left: 130px;
+}
+
+.rules {
+  color:white;
+  font-size: 80px;
+  transform: rotate(-20deg);
+  margin-left: 30px;
+}
+
+
+/*---------------------------------Cart Page -------------------------- */
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.products-container ion-icon {
+  font-size: 25px;
+  color: red;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 45%;
+}
+
+.price {
+  width: 15%;
+
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  width: 10%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+  cursor: pointer;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products img {
+  width: 50px;
+  }
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle {
+  width: 30%;
+}
+
+.basketTotal {
+  width: 10%;
+}
